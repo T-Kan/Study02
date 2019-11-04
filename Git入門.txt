@@ -18,3 +18,30 @@ git push -u origin master
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
+SSH key
+
+作成
+Dos 窓ではなく、Git Bash 窓で行う。
+
+ssh-keygen -t rsa -C "cantol@mvd.biglobe.ne.jp"
+パスフレーズ gitStudySSH
+
+結果
+
+Your identification has been saved in /c/Users/takuya/.ssh/id_rsa.
+Your public key has been saved in /c/Users/takuya/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:aSxNQcmi6QeyjygwC7a5BbrthgHHdEz19vDovjNPPi0 cantol@mvd.biglobe.ne.jp
+The key's randomart image is:
++---[RSA 2048]----+
+|   o...oo.       |
+|  . o ..o.       |
+| o . o .=        |
+|. + +  = *       |
+|.o + .. S o      |
+|*.o . .+         |
+|=*o+ .  . ..     |
+|==+ .  .ooE .    |
+|o++     o=oo     |
++----[SHA256]-----+
+
